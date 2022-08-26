@@ -1,0 +1,19 @@
+[programs.localnet]
+nft_staker = "DKWWiQiQHEbrSh4F4DURRjs2yGmTGzJFVr4q4J1jSg9T"
+
+[programs.devnet]
+nft_staker = "DKWWiQiQHEbrSh4F4DURRjs2yGmTGzJFVr4q4J1jSg9T"
+
+[programs.mainnet]
+nft_staker = "CgpQ89SyhGTBHhcBJf6jss388QouTeaFwSHtLVwNxYUy"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "mainnet"
+wallet = "~/RePtd6wqrmTvgoCVy4sfrhpuoNFuuPt3Uhr23p86dXe.json"
+#wallet = "~/RNGDk2XSs3fuHmUpD6hdTtGk5KqpX1bmp14iu25s9LC.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

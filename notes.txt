@@ -1,0 +1,1 @@
+solana program set-upgrade-authority CgpQ89SyhGTBHhcBJf6jss388QouTeaFwSHtLVwNxYUy -k ~/RNGDk2XSs3fuHmUpD6hdTtGk5KqpX1bmp14iu25s9LC.json --new-upgrade-authority ~/RePtd6wqrmTvgoCVy4sfrhpuoNFuuPt3Uhr23p86dXe.json
